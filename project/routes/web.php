@@ -19,15 +19,24 @@ Route::get('/', function () {
 
 
 Route::get('/lakers', function () {
-    return view('lakers');
-})->name('lakers');
+    $data = [
+        'title' => 'Lakers',
+    ];
+    return view('lakers', $data);
+})->name('lakers',);
 
 
 Route::get('/bulls', function () {
-    return view('bulls');
+    $data = [
+        'title' => 'Bulls',
+    ];
+    return view('bulls', $data);
 })->name('bulls');
 
 
 Route::get('/celtic', function () {
-    return view('celtics');
+    $data = [
+        'title' => 'Celtics',
+    ];
+    return view('celtics', $data);
 })->name('celtics');

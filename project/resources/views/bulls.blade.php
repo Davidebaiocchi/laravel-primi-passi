@@ -44,7 +44,7 @@
     <body>
             <div class="content">
                 <div class="title">
-                    Helloworld
+                    {{ $title }}
                 </div>
 
                 <div class="links">

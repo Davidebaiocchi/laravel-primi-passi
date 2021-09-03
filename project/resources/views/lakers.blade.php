@@ -44,14 +44,14 @@
     <body>
             <div class="content">
                 <div class="title">
-                    Helloworld
+                    {{ $title }}
                 </div>
 
                 <div class="links">
                    <a href=" {{ route('home') }}" >Home</a>
-                   <a href=" {{ route('lakers') }}" }} ">Lakers</a>
-                   <a href=" {{ route('bulls') }}" }} ">Bulls</a>
-                   <a href=" {{ route('celtics') }}" }} ">Celtics</a>
+                   <a href=" {{ route('lakers') }}">Lakers</a>
+                   <a href=" {{ route('bulls') }}">Bulls</a>
+                   <a href=" {{ route('celtics') }}">Celtics</a>
                 </div>
             </div>
         </div>
