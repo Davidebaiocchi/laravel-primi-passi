@@ -12,7 +12,7 @@
         <!-- Styles -->
         <style>
             body {
-                background-image: url(https://unofficialathletic.com/wp-content/uploads/2017/08/NBA2017_bulls_primary.jpg);
+                background-image: url(https://www.setaswall.com/wp-content/uploads/2018/07/Basketball-Wallpaper-26-2560x1600.jpg);
                 color: white;
                 background-position: center;;
                 font-family: 'Nunito', sans-serif;
@@ -20,6 +20,7 @@
                 height: 100vh;
                 margin: 0;
                 text-align: center;
+                overflow: hidden;
             }
 
             .title {
@@ -32,10 +33,17 @@
 
             a {
                 color: white;
+                margin-left: 20px;
             }
 
             a:hover {
                 color: blue;
+            }
+
+            .content {
+                position: relative;
+                left: 550px;
+                top: 300px;
             }
 
         </style>

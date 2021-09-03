@@ -27,11 +27,12 @@
             }
 
             .links {
-                font-size: 40px;
+                font-size: 60px;
             }
 
             a {
-                color: white;
+                margin-left: 20px;
+                color: black;
             }
 
             a:hover {
